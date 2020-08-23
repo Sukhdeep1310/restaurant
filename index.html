@@ -1,0 +1,130 @@
+<html>
+    <head>
+       	<link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">     
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <title></title>
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+	    <link href="cssfile/fgstyle_home.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <header>
+            
+        </header>
+        <nav>
+            <a href="index.html"><img src="images/logo.png" width="100px" height="100px"></a>
+           <ul>
+               <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="Location.html">Locations</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="beer.html">Beer</a></li>
+           </ul>
+<!--
+            <button id ="order">Order Online</button>
+            <a href="#" class="material-icons" onclick="toggle()">menu</a>
+-->
+        </nav>
+        <main>
+            <div id ="banner">
+                <h1>HEAT 7</h1>
+                <p>THREE STORES OPEN DAILY AT 11 AM / SERVICE TILL 11 PM ON FRI & SAT!</p>
+                <div id="pizza-image"><img src="images/try.png" width="500px" height="auto"></div>
+            </div>
+            <div id="how-to-order">
+                <h2>How To Order</h2>
+                <div id="order-divs">
+                    <div id="order-div"><img src="images/order1.png" height="200px" width="200px"><p>Pick Your Food</p>
+                    </div>
+                    <div id="order-div"><img src="images/order2.png" height="200px" width="200px"><p>Add a Refreshing Drink</p>
+                    </div>
+                    <div id="order-div"><img src="images/order3.png" height="200px" width="200px"><p>Add Delicious Toppings</p>
+                    </div>
+                </div>
+            </div>
+            <div id="main-menu">
+                <h2>Popular Dishes</h2>
+                <div id="galleryBox">
+                    <div class="gallery"><img src="images/menu1.jpg" alt="Pasta" width="350px" height="250px"><p>Pasta</p></div>
+                    <div class="gallery"><img src="images/menu2.jpg" alt="Risotto" width="350px" height="250px"><p>Risotto</p></div>
+                    <div class="gallery"><img src="images/menu3.jpg" alt="Antispati" width="350px" height="250px"><p>Antispati</p></div>
+                    <div class="gallery"><img src="images/menu41.jpg" alt="red_wine" width="350px" height="250px"><p>Red Wine</p></div>
+                    <div class="gallery"><img src="images/menu51.jpg" alt="white_wine" width="350px" height="250px"><p>White Wine</p></div>
+                    <div class="gallery"><img src="images/menu61.jpg" alt="rose_wine" width="350px" height="250px"><p>Rose Wine</p></div>
+                </div>  
+                <a href="menu.html">View Our Full Menu</a>
+            </div>
+            <div id="happy-hour">
+                <h2>Join us for happy hour</h2>
+                <p>3-6PM / 9-11PM • $1 OFF ALL BEER | WEDNESDAYS 5-11PM • $2 SAKE CARAFFES</p>
+            </div>
+            <div id="free">
+                <div id="free1">
+                    <h3>Prime Rib Burger<sup>New</sup></h3>
+                    <p id="para">This burger is half a pound! Chicken breast fillet with white wine, mushrooms, asparagus and cherry tomatoes in a creamy sauce</p>
+                </div>
+                <div id="free2">
+                    <h1>Get a free burger</h1>
+                    <p>Be the first one to know about our newest menu items and latest offers. More Food. Less Money. Commence Mouthwatering.</p>
+                    <input type="text" id="namebox" placeholder="name"><br>
+                    <input type="text" id="emailbox" placeholder="email"><br>
+                    <span>Join Clubhouse</span>
+                </div>
+            </div>
+            
+        </main>
+        <footer class="footer-distributed">
+
+			<div class="footer-left">
+                
+                <div class="footer-icons">
+                    <div id="icons_div"> 
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-linkedin"></i></a>
+					<a href="#"><i class="fa fa-github"></i></a>
+                 </div>
+				</div>
+                    
+            </div>
+
+			<div class="footer-center">
+
+				<p class="footer-company-about">
+					<span>About the company</span>
+					We pride ourselves on the quality of our food. Each dish is carefully crafted by our Sicilian chef who brings over 20 years’ experience to the table. We use high quality, fresh ingredients in all of our dishes, including seasonal produce to ensure our customers have the very best dining experience.
+				</p>
+
+
+			</div>
+
+			<div class="footer-right">
+                <div id="orderbutton">
+                <button id ="order2">Order Online</button>
+                </div>
+			</div>
+		</footer>
+    </body>
+<!--
+    <script>
+        function toggle(){
+            var btn = document.getElementsByClassName("material-icons")[0];
+            
+            if(btn.innerHTML == "menu"){
+                document.getElementsByTagName("ul")[0].style.left="0px";
+                
+                btn.innerHTML = "close";
+                btn.style.transform = "rotate(180deg)";
+                btn.style.transition = "1s";
+            }
+            else{
+                document.getElementsByTagName("ul")[0].style.left="100%";
+                btn.innerHTML = "menu";
+                btn.style.transform = "rotate(-180deg)";
+                btn.style.transition = "1s";
+                
+                }
+            
+        }
+    </script>
+-->
+</html>
